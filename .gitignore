@@ -1,0 +1,51 @@
+# Compiled source code
+*.class
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IntelliJ / VSCode / Eclipse
+.idea/
+.vscode/
+*.iml
+.project
+.classpath
+.settings/
+
+# Maven target folder
+target/
+
+# Gradle build folders
+build/
+.gradle/
+
+# Node modules (if frontend included)
+node_modules/
+
+# Environment / config secrets
+.env
+application-local.yml
+application-secrets.yml
+
+# Mac-specific
+*.DS_Store
+
+# Backup files
+*.bak
+*.old
+
+# Test coverage
+coverage/
+.jacoco/
+
+# Generated docs
+/docs/**/*.html
