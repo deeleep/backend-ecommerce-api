@@ -1,0 +1,28 @@
+openapi: 3.0.3
+info:
+  title: E-Commerce Microservices API
+  description: REST API for orders, customers, payments
+  version: 1.0.0
+
+paths:
+  /customers:
+    post:
+      summary: Register new customer
+      responses:
+        "201":
+          description: Customer registered successfully
+
+  /orders:
+    post:
+      summary: Place an order
+      responses:
+        "201":
+          description: Order placed successfully
+
+  /payments:
+    post:
+      summary: Process payment
+      responses:
+        "200":
+          description: Payment processed successfully
+// Add docker-compose.yml for container setup
