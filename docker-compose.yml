@@ -109,4 +109,3 @@ volumes:
   postgres-data:
   pgadmin-data:
   mongo-data:
-// Add project folder structure
